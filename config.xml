@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.purecss.change_this"
+    versionCode = "10"
+    version     = "0.0.1" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>PureCSS Template</name>
+
+  <description>
+      A responsive template for a website or app. This means it looks good everywhere.
+  </description>
+
+  <author href="https://crrdlx.github.io/" email="crrdlx@gmail.com">
+      crrdlx
+  </author>
+    
+  <icon src="res/icon.png" />
+    
+</widget>
