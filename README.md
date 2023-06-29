@@ -9,3 +9,7 @@ The goal of PureDogPWA is to have a PWA website template that:
 </ol>
 
 In other words, it should just work.
+<p>
+Live demo at <a href="https://puredogpwa.netlify.app/">https://puredogpwa.netlify.app<a>
+<p>
+Note: the "install PWA" is currently not working. That needs fixing.
