@@ -1,6 +1,6 @@
 {
-"name": "Pure Minimal PWA",
-"short_name": "Pure Minimal PWA",
+"name": "PureDogPWA",
+"short_name": "PureDogPWA",
 "start_url": "index.html",
 "display": "standalone",
 "icons": [
