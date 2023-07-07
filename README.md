@@ -1,6 +1,9 @@
 # PureDogPWA
 The PureDogPWA is a mash up of <a href="https://purecss.io/" target="_blank">PureCSS</a>, the <a href="https://github.com/crrdlx/doggone-minimal-website" target="_blank">Doggone Minimal Website</a>, and <a href="https://levelup.gitconnected.com/a-simple-pwa-template-project-85ae4927d14e">A Simple PWA Template Project</a>.
 <p>
+Live demo at <a href="https://puredogpwa.netlify.app/">https://puredogpwa.netlify.app<a>
+<p>
+<p>
 PureDogPWA seeks to be clean, light, and functional...to just work.
 <p>
 The goal of PureDogPWA is to have a PWA website template that:
@@ -14,4 +17,3 @@ In other words, it should just work.
 <p>
 Live demo at <a href="https://puredogpwa.netlify.app/">https://puredogpwa.netlify.app<a>
 <p>
-Note: the "install PWA" is currently not working. That needs fixing.
