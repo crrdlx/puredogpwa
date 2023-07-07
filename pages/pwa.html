@@ -57,17 +57,24 @@
         </ol>
         <p>The PureDogPWA relies heavily on the <a href="https://simplepwa.com">SimplePWA.com</a> template. That site links to very helpful tools in setting up proper images for your PWA as well.
         </p> 
+        <h2>Essentials of a PWA</h2>
         <p>
-            In its essence though, turning a website into a PWA requires the following things:
+            It's possible to "Add to home screen" any website. But, all this does is add an <em>icon/image</em> to your device. The icon is just a <em>link</em> to the web page. Tapping the icon then opens the page in a new tab in your web browser. When you close the browser, it's gone. This is handy, but it's not exactly a PWA.
+        </p>
+        <p>
+            In its essence, the main qualifier of a PWA is that it <em>can be installed</em> on your device. Then, it opens in its <em>own</em> screen, separate from your brower. When you close your browser, the PWA is <em>still there</em>, just like an app would be. Turning a website into a PWA requires the following things:
         </p>
         <ul>
             <li>HTML code, like any website.</li>
-            <li>A line of code in the head that reads: <link rel="manifest" href="manifest.json"></li>
+            <li>A line of code in the head that includes: link rel="manifest" href="manifest.json". Add it to each page in the head.</li>
             <li>A manifest. It's named "manifest.json" and you should customize it.</li>
             <li>A service worker. This is a javascript file named "sw.js" and doesn't need to be changed.</li>
         </ul>
 
-
+        <h2>Try it</h2>
+        <p>
+            Try to make a PWA. Either mash up this PureDogPWA or try SimplePWA.com linked above.
+        </p>
         
         </div>
     </div>
