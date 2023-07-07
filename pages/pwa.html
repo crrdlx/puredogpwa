@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
     <title>PWA page</title>
-    
+    <link rel="manifest" href="../manifest.json">
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
         <!--[if lte IE 8]>
             <link rel="stylesheet" href="../css/layouts/side-menu-old-ie.css">
@@ -45,68 +45,30 @@
         </div>
 
         <div class="content">
-            <h1 id="pwa-stuff">This is the <span style="color:firebrick"><em>SimplePWA</em> </span>addition stuff.</h1>
+            <h1 id="pwa-stuff">This is the <span style="color:firebrick">SimplePWA </span>addition stuff.</h1>
+        <p>
+            A Progressive Web App (PWA) is a great thing. On something like your phone, it looks, feels, and acts like a regular phone app. However...
+        </p>
+        <ol>
+            <li>Whereas an app downloaded onto your phone takes up a bunch of your phone's storage space, a PWA takes very little space.</li>
+            <li>It looks, acts, and feels just like a regular app.</li>
+            <li>Updates done to the app are instantaneous. There's no need to "update."</li>
+            <li>You're free from a big corporation's app store and their rules and whims.</li>
+        </ol>
+        <p>The PureDogPWA relies heavily on the <a href="https://simplepwa.com">SimplePWA.com</a> template. That site links to very helpful tools in setting up proper images for your PWA as well.
+        </p> 
+        <p>
+            In its essence though, turning a website into a PWA requires the following things:
+        </p>
+        <ul>
+            <li>HTML code, like any website.</li>
+            <li>A line of code in the head that reads: <link rel="manifest" href="manifest.json"></li>
+            <li>A manifest. It's named "manifest.json" and you should customize it.</li>
+            <li>A service worker. This is a javascript file named "sw.js" and doesn't need to be changed.</li>
+        </ul>
 
-            <p>It's just added code. And it’s <em>really</em> clean and simple.</p>
-            <p>To make it look like the other pages, you'd have to add div class tags. Else, it looks like this. Which ain't bad.</p>
-            
-            <h2 id="seriously-minimal">Seriously, some minimal things are needed to make this site perfect.</h2>
-            
-            <p><strong>6 doggone declarations and one attribute.</strong></p>
-            
-            <p>That’s how much CSS and HTML it took to turn that grotesque pile of nonsense</a> into this finally perfect masterpiece. It’s so simple and it still has all the glory of the original perfect website.</p>
-            
-            <ul>
-              <li>It’s <em>finally</em> lightweight and loads fast;</li>
-              <li><em>Finally</em> fits on all your bad screens;</li>
-              <li><em>Finally</em> looks the same in all your bad browsers;</li>
-              <li>It’s <em>still</em> accessible to everyone that visits your site;</li>
-              <li>It’s <em>still</em> legible and gets your point across.</li>
-            </ul>
 
-            <p><center><img src="https://picsum.photos/600/400" class="centered" width=80%></center></p>
-            <p style="text-align:center"><small>This is a random picture. It's just here, hanging out. But it's probably a very nice picture.</small></p>
-
-            <h3 id="and-guess-what-freaker">And guess what, friend:</h3>
-            
-            <p>You never knew it, but it’s easy to improve reliability on your site. Here’s how.</p>
-            
-            <h2 id="a-little-more-accessibility">A little more accessibility</h2>
-            
-            <p>You should take care of people.
-            The <abbr title="HyperText Markup Language">HTML</abbr> tag doesn’t include the <a href="https://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes"><code class="highlighter-rouge">lang</code> attribute</a> in your webpage.<br />
-            Have you ever listened to a <a href="https://www.youtube.com/watch?v=NP94u7y_KkQ">wrong language screen reader lecture</a>? What a bad experience.</p>
-            
-            <center>
-                <a href="https://crrdlx.github.io" class="button button_round10px">Press to Check My GitHub Profile</a>
-            </center>  
-            
-            <h2 id="typography-matters">Typography matters</h2>
-            
-            <p><a href="http://smartquotesforsmartpeople.com/">Don’t be dumb with typography</a>. Don’t let improper marks and quotes make their way onto websites because of dumb defaults in applications and CMSs.<br />
-            And did you let the browser choose the font? Don’t make someone read text with <em>Times New Roman</em>.</p>
-            
-            <p>You can <span style="color:orangered">change the colors too, if you want.</span></p>
-            
-            <h2 id="license-needed">License, add a license.</h2>
-            
-            <p>Do you dislike intellectual property? No. So you must <a href="https://choosealicense.com/">choose a license</a>.<br />
-            And, you can let others <a href="https://github.com/crrdlx/doggone-minimal-website">improve this site</a>, which is nice.</p>
-            
-            <h2>Yes, this is the last section</h2>
-            
-            <p>If you wish, you can use work on this site. The link is above.</p>
-            
-            <blockquote>
-              <p>“If a tree falls in a forest, and no one is around to hear it, does it still fall?” 
-            — Somebody</p>
-            </blockquote>
-            
-            <hr />
-            
-            <h2 id="epilogue">Epilogue</h2>
-            
-            <p>Inspired by the geniuses at some brilliant, foul-mouthed websites.</p>
+        
         </div>
     </div>
 </div>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
     <title>Dog page</title>
-    
+    <link rel="manifest" href="../manifest.json">
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
         <!--[if lte IE 8]>
             <link rel="stylesheet" href="../css/layouts/side-menu-old-ie.css">
@@ -45,7 +45,7 @@
         </div>
 
         <div class="content">
-            <h1 id="this-is-the-doggone-minimal-website">This is the <span style="color:firebrick"><em>Doggone Minimal Website</em> </span>modifications.</h1>
+            <h1 id="dmw-added-stuff">This is the <span style="color:firebrick"><em>Doggone Minimal Website</em> </span>modifications.</h1>
 
             <p>
                 The Doggone Minimal Website (DMW) is something that I mashed together. I, being, <a href="https://hive.blog/@crrdlx/about" target="_blank">crrdlx</a>. The DMW is a cleaned-up and altered version of the <a href="https://perfectmotherfuckingwebsite.com">Perfect 'Foul-Mouthed' Website</a>. (Warning, very naughty language.)
@@ -58,8 +58,12 @@
             <p>To make it look like the other pages, you'd have to add div class tags. Else, it looks like this. Which ain't bad.</p>
             
             <a name="internal_link"></a>
-            <h2 id="seriously-minimal">Some minimal things are needed to make this site perfect.</h2>
-                <p>Let's talk about headings. The one above with the red underscore is an h2. You can go down to h6 if desired.</p>
+            <h2 id="seriously-minimal">An h2 heading. Some minimal things are needed to make this site perfect.</h2>
+                <p>Let's talk about headings. The one above is an h2. You can go down to h6 if desired.</p>
+            <h2 class="content-subhead">Also an h2 heading, but with a class</h2>
+                <p>
+                    Above is also an h2 heading. However, it looks a bit different because it has a class listed. This is optional and can be included or not.
+                </p>
                 <h3>This h3 looks a bit different.</h3>
                 <p>The point of headings and subheadings is to differentiate levels. That's why they each look a bit different.</p>
                 <h4>This is an h4 heading.</h4>
