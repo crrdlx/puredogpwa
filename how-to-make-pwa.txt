@@ -1,0 +1,19 @@
+Things needed:
+1. config.js
+2. manifest.json
+3. sw.js
+4. img directory
+5. src directory
+
+Things to add:
+1. index.html file, add in head: 
+<link rel="manifest" href="manifest.json">
+
+2. index.html file, add just above </body> tag to "register" sw: 
+<script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
+
+To test and troubleshoot, go to https://www.pwabuilder.com and put in the URL
