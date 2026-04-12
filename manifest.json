@@ -1,30 +1,36 @@
 {
-"name": "PureDogPWA",
-"short_name": "PureDogPWA",
-"start_url": "index.html",
-"display": "standalone",
-"icons": [
+  "id": "./",
+  "name": "PureDogPWA",
+  "short_name": "PureDogPWA",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "icons": [
     {
-    "src": "img/icon_120.png",
-    "sizes": "120x120",
-    "type": "image/png"
+      "src": "img/icon_120.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-    "src": "img/icon_180.png",
-    "sizes": "180x180",
-    "type": "image/png"
+      "src": "img/icon_180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-    "src": "img/icon_192.png",
-    "sizes": "192x192",
-    "type": "image/png"
+      "src": "img/icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-    "src": "img/icon_512.png",
-    "sizes": "512x512",
-    "type": "image/png"
+      "src": "img/icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
-],
-"background_color": "#ffffff",
-"theme_color": "#ffffff"
+  ],
+  "background_color": "#fefefe",
+  "theme_color": "#b22222"
 }
